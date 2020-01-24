@@ -38,7 +38,7 @@
 		"format": "prettier --write src/**/*.{js,jsx}",
 		"start": "npm run develop",
 		"serve": "gatsby serve",
-		"deploy": "gatsby build --prefix-paths && gh-pages -d master",
+		"deploy": "gatsby build && gh-pages -d public -b master",
 		"prettier": "prettier --write **/*.{ts,js,css,html}"
 	},
 	"repository": {
