@@ -17,6 +17,7 @@
 		"gatsby-source-filesystem": "^2.1.0",
 		"gatsby-transformer-remark": "^2.5.0",
 		"gatsby-transformer-sharp": "^2.2.0",
+		"gh-pages": "^2.2.0",
 		"less": "^3.9.0",
 		"prop-types": "^15.7.2",
 		"react": "^16.8.6",
@@ -37,6 +38,7 @@
 		"format": "prettier --write src/**/*.{js,jsx}",
 		"start": "npm run develop",
 		"serve": "gatsby serve",
+		"deploy": "gatsby build --prefix-paths && gh-pages -d public",
 		"prettier": "prettier --write **/*.{ts,js,css,html}"
 	},
 	"repository": {

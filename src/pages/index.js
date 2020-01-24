@@ -121,8 +121,7 @@ class IndexPage extends React.Component {
                                     {this.props.data.site.siteMetadata
                                         .capitalizeTitleOnHome
                                         ? this.props.data.site.siteMetadata.title.toUpperCase()
-                                        : this.props.data.site.siteMetadata
-                                              .title}
+                                        : this.props.data.site.siteMetadata.title}
                                 </text>
                             </svg>
                         </div>

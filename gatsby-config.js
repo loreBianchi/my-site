@@ -1,11 +1,12 @@
 let siteMetadata = {
-    title: `Elemental`,
+    title: `HI! I'm Lore`,
     capitalizeTitleOnHome: true,
-    logo: `/images/logo.png`,
+    logo: `/images/Doraemon.png`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+    introTag: `LORENZO BIANCHI - WEB DEVELOPER`,
+    description: `Hello, my name is Lorenzo and I come from Bergamo (Italy). Since 2016 I have been working as Front End developer.
+    I love my job and I try to constantly learn new things, to do my job better, and because I like it.`,
     author: `@_akzhy`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
@@ -76,6 +77,7 @@ let siteMetadata = {
 };
 
 module.exports = {
+    pathPrefix: "/my-site",
     siteMetadata: siteMetadata,
     plugins: [
         `gatsby-plugin-sharp`,
