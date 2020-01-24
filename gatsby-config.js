@@ -77,7 +77,6 @@ let siteMetadata = {
 };
 
 module.exports = {
-    pathPrefix: "/my-site",
     siteMetadata: siteMetadata,
     plugins: [
         `gatsby-plugin-sharp`,

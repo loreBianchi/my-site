@@ -17,7 +17,6 @@
 		"gatsby-source-filesystem": "^2.1.0",
 		"gatsby-transformer-remark": "^2.5.0",
 		"gatsby-transformer-sharp": "^2.2.0",
-		"gh-pages": "^2.2.0",
 		"less": "^3.9.0",
 		"prop-types": "^15.7.2",
 		"react": "^16.8.6",
@@ -26,6 +25,7 @@
 		"react-sidebar": "^3.0.2"
 	},
 	"devDependencies": {
+		"gh-pages": "^2.2.0",
 		"prettier": "^1.18.2"
 	},
 	"keywords": [
@@ -38,14 +38,11 @@
 		"format": "prettier --write src/**/*.{js,jsx}",
 		"start": "npm run develop",
 		"serve": "gatsby serve",
-		"deploy": "gatsby build --prefix-paths && gh-pages -d public",
+		"deploy": "gatsby build --prefix-paths && gh-pages -d master",
 		"prettier": "prettier --write **/*.{ts,js,css,html}"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/akzhy/elemental"
+		"url": "https://github.com/loreBianchi/my-site"
 	},
-	"bugs": {
-		"url": "https://github.com/akzhy/elemental/issues"
-	}
 }
